@@ -12,7 +12,7 @@ app.get("/", function (req,res) {
     res.render("index")
 })
 
-var port = process.env.port || 8080;
+var port = process.env.port || 2241;
 
 app.listen( port, function(){
   console.log('listening on *:' + port);
